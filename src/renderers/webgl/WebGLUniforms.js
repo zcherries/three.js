@@ -401,7 +401,7 @@ THREE.WebGLUniforms = ( function() { // scope
 
 	// Parser - builds up the property tree from the path strings
 
-	var RePathPart = /([\w\d_]+)(\])?(\[|\.)?/g,
+	var RePathPart = /([\w\d_]+)(])?(\[|\.)?/g,
 		// extracts
 		// 	- the identifier (member name or array index)
 		//  - followed by an optional right bracket (found when array index)
